@@ -16,15 +16,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.gen-square:before {
-    content: "\0041";
-}
-.gen-octagon:before {
-    content: "\0042";
-}
-.gen-hexagon:before {
-    content: "\0043";
-}
 .gen-advantage:before {
     content: "\0061";
 }
@@ -36,6 +27,15 @@
 }
 .gen-disadvantage:before {
     content: "\0068";
+}
+.gen-square:before {
+    content: "\006f";
+}
+.gen-octagon:before {
+    content: "\0070";
+}
+.gen-hexagon:before {
+    content: "\0071";
 }
 .gen-success:before {
     content: "\0073";
